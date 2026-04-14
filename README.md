@@ -1,54 +1,53 @@
-# Student Management System
+# 🎓 Student Management System
 
-A full-stack Student Management System built with Python (Flask), MySQL, and vanilla HTML/CSS/JS.
+## 📌 Project Description
+This project is a full stack Student Management System developed using Python, Flask, and MySQL/SQLite.
 
-## Features
-- Full CRUD operations for managing students
-- RESTful HTTP APIs built with Flask
-- MySQL backend using PyMySQL
-- Modern, clean, and responsive UI
-- Client-side and server-side validation
+It helps in managing student records efficiently by performing CRUD operations.
 
-## Database Setup
+---
 
-1. Make sure you have MySQL installed and running on your system.
-2. Login to your MySQL server and create the required database:
-```sql
-CREATE DATABASE student_db;
-```
-*(Note: Our application will automatically create the `students` table when it starts up!)*
-3. If necessary, update the MySQL credentials within `backend/db.py`:
-Modify the `get_db_connection()` function if your local MySQL uses a different username/password. Default assumes `user='root'` and `password='password'`.
+## 🚀 Features
+- Add Student
+- View Student List
+- Update Student Details
+- Delete Student Records
 
-## Backend Setup
+---
 
-1. Open a terminal and navigate to the root directory `Student Management System`.
-2. (Optional but recommended) Create a virtual environment:
-```shell
-python -m venv venv
-venv\Scripts\activate       # On Windows
-# source venv/bin/activate  # On macOS/Linux
-```
-3. Install the Python dependencies:
-```shell
+## 🛠️ Technologies Used
+- Python (Flask)
+- MySQL / SQLite
+- HTML, CSS, JavaScript
+
+---
+
+## 📂 Project Structure
+- backend/ → Backend logic (API, database connection)
+- frontend/ → UI pages (HTML, CSS, JS)
+- requirements.txt → Required libraries
+
+---
+
+## ⚙️ How to Run
+
+1. Install dependencies:
 pip install -r requirements.txt
-```
-4. Start the backend server:
-```shell
+
+2. Run backend server:
 python backend/app.py
-```
-The server will run on `http://127.0.0.1:5000/`. Keep this terminal open!
 
-## Frontend Setup
+3. Open frontend:
+Open frontend/index.html in browser
 
-The frontend consists of standalone static HTML files.
+---
 
-1. Locate the `frontend` folder inside this project.
-2. Double-click on `index.html` to open it in your web browser (or better yet, run a small local web server if you experience CORS issues, like using Live Server in VSCode or `python -m http.server 8000` inside the `frontend` directory).
-3. The frontend will communicate automatically with the Flask backend running on port 5000 via our JavaScript APIs.
+## 📸 Output
+<img width="830" height="473" alt="image" src="https://github.com/user-attachments/assets/d2a3b282-65c4-47a3-b9ac-97c3153a0b54" />
+<img width="843" height="474" alt="image" src="https://github.com/user-attachments/assets/970abcf4-6278-4ca2-be2e-d2f411e744f9" />
 
-Navigate through the Dashboard to:
-- View all students
-- Add a new student
-- Edit current students
-- Delete students
+
+---
+
+## 👩‍💻 Author
+Harini R
